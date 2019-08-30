@@ -2,14 +2,14 @@
 layout: cv
 title: Wode "Nimo" Ni
 email: 
-    url: mailto:woden@cs.cmu.edu
-    text: woden@cs.cmu.edu
+    url: mailto:zeweiliu@usc.edu
+    text: zeweiliu@usc.edu
 homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: https://www.linkedin.com/in/zewei-liu-a25425104/
+  text: linkedin.com/in/zewei-liu-a25425104/
 ---
 
-# Wode **Ni**
+# Zewei **Liu**
 
 <!--
 include contact information from the front matter
@@ -23,93 +23,65 @@ Supported arguments:
 
 ## Education
 
-### **Carnegie Mellon University** `2018.9 -`
+### **University of Southern California** `2018.8 -`
 
 ```
-Pittsburgh, PA
+Los Angeles, CA
 ```
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+- M.S. in Computer Science (GPA 3.9/4.0)
 
-### **Columbia University** `2016.9 - 2018.5`
-
-```
-New York, NY
-```
-
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
-
-### **Dickinson College** `2013.9 - 2016.5`
+### **Beijing University of Technology** `2014.9 - 2018.6`
 
 ```
-Carlisle, PA
+Beijing, China
 ```
 
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+- B.E. in Mechanical Engineering (GPA 3.9/4.0)
 
-## Publications
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+## Professional Experiences
+### **Software Development Engineer Intern, Amazon, Seattle** `2019.5 - 2019.8`
++ Worked in the agile team(using Scrum) responsible for high-performance and high-concurrency Shipping Offering Service(SOS) with peak traffic of 100 million RPS in SOA
+* Enhanced service reliability and resiliency by developing Dependency Management Utility(DMU) based on Hystrix-like library and Spring, implementing the functions of circuit breaker, retry, timeout, logging and monitoring and integrated into 8 dependencies in SOS(running in prod) 
+* Refactored DMU and dependency-calling code, achieving decoupling between packages
+* Developed a request-generating tool to ping the service automatically for testing(Python)
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF](assets/dsldi.pdf)]
-[[slides](assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+### **Software Engineer Intern, LovEd, Los Angeles** `2019.1 - 2019.4`
+* Designed a Restful API, developed a general-purpose Servlet and Abstract Class for resources CRUD using Java Servlet, Strategy Pattern, Reflection, JDBC, MySQL and Jetty
+* Designed and implemented User Models according to business requirements with MySQL.
+* Developed front-end web app components using React and React-redux.
 
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+### **Software Development Intern, JD.com, Beijing** `2018.7 - 2018.8`
+* Developed web crawlers of 5 websites, including Douban, Zhihu and NetEase Music, using Scrapy, Selenium and Headless Chrome, most data was adopted by the corpus
+* Developed reusable user interface components using React and managed state using React-redux
+* Hands-on experience with RESTful API interfaces design
 
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](assets/superres.pdf)]
+## Related Projects
 
-## Experience
+### **Events Search(Android and Web Application)** `2018.10 - 2018.10`
+* Developed an Android application searching nearby events by calling 6+ APIs, using 10+ libraries
+* Developed a web application using Angular and Bootstrap for front end with HTML5 features
+* Designed RESTful API and implemented backend using Express(deployed on AWS)
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
+### **Hotel Reviewer: JS Web Application Development** `2018.3 - 2018.6`
+* Developed routing module to handle HTTP requests and responses using RESTful routes
+* Integrated Google Map API and Fuzzy Search using Regular Expression
+* Developed on Cloud9 with Git(deployed on Heroku and mLab/MongoDB)
 
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+### **Sorting Machine Based on Machine Vision** `2016.12 - 2017.12`
+* Optimized speed by developing statistical Testing Program for image threshold slicing algorithms
+* Developed classification algorithm using Convolution Method and Hough Algorithm
 
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
+### **Sorting Machine Based on Machine Vision** `2017.12 - 2018.5`
+* Implemented and Optimized AlexNet CNN model using TFLearn and reached the accuracy of 99.6%
+* Developed GUI to control and monitor software using TkInter
 
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
+## Technical Skills
 
-### **AsiaInfo** `2015.6 - 2015.8`
-
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
-## Advising
-
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-
-## Teaching
-
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-## Honors & Awards
-
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-Travel Award for [SPLASH'18](https://2018.splashcon.org/track/splash-2018-PLMW?track=SPLASH%20PLMW)
-
-## Service
-
-Research Experiences for Undergraduates in Software Engineering (REUSE) Program Admission Committee `CMU, 2019`
+**Programming Languages**: Java, JavaScript, Python, C/C++, SQL, C#, PHP<br>
+**Front-End Skills**: React.js, Redux, Angular, jQuery, Bootstrap, HTML, CSS, Selenium, Android<br>
+**Back-End Skills**: Restful API, Java Servlet, Spring, Node.js, Express, MongoDB, MySQL, Scrapy, AWS, Git
 
 <!-- ### Footer
 
